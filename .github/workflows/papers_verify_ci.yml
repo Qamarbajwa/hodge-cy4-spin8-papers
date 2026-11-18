@@ -1,0 +1,78 @@
+name: Papers Verification CI
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  verify-papers-and-sha256:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Verify all 6 subsections and PDF SHA-256 checksums
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import hashlib
+          import json
+          import os
+          from pathlib import Path
+
+          receipt_path = Path("receipts/FULL_AUTOMATION_VERIFICATION_RECEIPT.json")
+          if not receipt_path.is_file():
+              raise SystemExit("Missing receipts/FULL_AUTOMATION_VERIFICATION_RECEIPT.json")
+
+          receipt = json.loads(receipt_path.read_text(encoding="utf-8"))
+          papers_meta = receipt["paper_audit"]["papers"]
+
+          expected_sections = [
+              ("01_shioda_aoki_fermat", "Paper1"),
+              ("02_macaulay_apolarity", "Paper2"),
+              ("03_spin8_triality_mumford", "Paper3"),
+              ("04_gauss_manin_jets", "Paper4"),
+              ("05_cyclotomic_incidence_sieve", "Paper5"),
+              ("06_higher_degree_and_hodge_bridges", "Paper6"),
+          ]
+
+          summary_lines = [
+              "## Six-Paper Verification Summary",
+              "",
+              "| Subsection | Paper | PDFs | TeX | Lean4 | Symbolic | SHA-256 Match |",
+              "| :--- | :--- | :---: | :---: | :---: | :---: | :---: |",
+          ]
+
+          for sec_dir, paper_id in expected_sections:
+              base = Path("sections") / sec_dir
+              pdfs = sorted((base / "manuscript").glob("*.pdf"))
+              texs = sorted((base / "manuscript").glob("*.tex"))
+              leans = sorted((base / "lean4_certificates").glob("*.lean"))
+              symbs = sorted((base / "symbolic_companion").iterdir())
+
+              if not pdfs or not texs or not leans or not symbs:
+                  raise SystemExit(
+                      f"Incomplete subsection {sec_dir}: pdf={len(pdfs)} tex={len(texs)} "
+                      f"lean={len(leans)} symbolic={len(symbs)}"
+                  )
+
+              pdf_path = pdfs[0]
+              digest = hashlib.sha256(pdf_path.read_bytes()).hexdigest()
+              expected_digest = papers_meta[paper_id]["pdf_sha256"]
+              if digest != expected_digest:
+                  raise SystemExit(
+                      f"SHA-256 mismatch for {pdf_path}: got {digest}, expected {expected_digest}"
+                  )
+
+              summary_lines.append(
+                  f"| `{sec_dir}` | `{paper_id}` | {len(pdfs)} | {len(texs)} | {len(leans)} | {len(symbs)} | PASS (`{digest[:12]}...`) |"
+              )
+
+          summary_path = os.environ.get("GITHUB_STEP_SUMMARY")
+          if summary_path:
+              Path(summary_path).write_text("\n".join(summary_lines) + "\n", encoding="utf-8")
+
+          print("PAPERS_CI_VERIFY_PASSED=True SUBSECTIONS=6 PDF_HASH_MATCHES=6")
+          PY

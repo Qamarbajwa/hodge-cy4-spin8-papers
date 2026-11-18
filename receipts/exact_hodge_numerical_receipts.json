@@ -1,0 +1,53 @@
+{
+  "archive": "HODGE-MILLENNIUM-001 Exact Numerical Receipts",
+  "principal_investigator": "Qamar Munawer",
+  "affiliation": "Brandenburg University of Technology Cottbus-Senftenberg",
+  "epistemic_invariants": {
+    "global_hodge_conjecture": "OPEN",
+    "bridge_a_status": "OPEN",
+    "bridge_b_status": "OPEN",
+    "release_authorized": false,
+    "theorem_progress": "UNKNOWN"
+  },
+  "exact_numerical_invariants": {
+    "milnor_number_fermat_sextic": 15625,
+    "primitive_h22_fermat_sextic": 1751,
+    "fermat_four_band_partition": [
+      1001,
+      630,
+      120,
+      0
+    ],
+    "fermat_four_band_sum": 1751,
+    "band3_p3_surface_h11_prim": 85,
+    "canonical_fixed_plane_kernel_dim": 407,
+    "ivhs_monomial_rank_min": 19,
+    "ivhs_monomial_rank_max": 141,
+    "abelian_fourfold_h4_dim": 70,
+    "weil_w0_primitive_dim": 2,
+    "sixfold_b6": 924,
+    "sixfold_h33": 400,
+    "mumford_k22_zero_weight_tuples": 6,
+    "clifford_even_dim": 128,
+    "weyl_d4_group_order": 192,
+    "d4_triality_zero_triples": 32,
+    "deformed_macaulay_flat_hilbert_sum": 72,
+    "deformed_moving_planes_cancelled": 18,
+    "deformed_fixed_planes_flat": 359,
+    "cyclotomic_wavepacket_monomials": 125,
+    "recombination_kernel_gain": 3,
+    "gorenstein_moduli_rank_min": 155,
+    "gorenstein_moduli_rank_max": 336,
+    "universal_kernel_lower_bound": 1325,
+    "turan_pigeonhole_min_k": 5,
+    "surjective_cokernel_dim": 0,
+    "twenty_plane_collision_excess": 135,
+    "high_support_annihilator_dim": 181,
+    "fifteen_matching_incidences": 1875,
+    "crt_macaulay_matrix_rows": 1751,
+    "crt_macaulay_matrix_cols": 426,
+    "crt_macaulay_matrix_rank": 426,
+    "lean4_finite_checks_total": 43,
+    "lean4_mathlib_imports": 0
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "ALL_CHECKS_PASSED": true,
+  "lean_audit": {
+    "lake_build_ok": true,
+    "lake_returncode": 0,
+    "forbidden_hits": [],
+    "style_errors": [],
+    "theorem_counts": {
+      "LeanDemoProject.lean": 0,
+      "HodgeVerification.lean": 40,
+      "ShiodaFormalConjectures.lean": 6,
+      "MathlibPR_ShiodaAokiFermat.lean": 7,
+      "MathlibPR_MacaulayGorenstein.lean": 5,
+      "MathlibPR_Spin8Triality.lean": 7,
+      "MathlibPR_CyclotomicIncidenceSieve.lean": 4,
+      "WiebeSchejaStorch.lean": 2,
+      "GaussManinJetTransport.lean": 3,
+      "ShiodaInductiveCycleSynthesis.lean": 2,
+      "Spin8LieAlgebraTriality.lean": 3,
+      "GlobalIVHSObstructionSpectrum.lean": 2,
+      "HigherDegreeSporadicBand4.lean": 3
+    },
+    "total_theorems": 84,
+    "sha256": {
+      "LeanDemoProject.lean": "3305591663c94ec98a8d0b77df19d4d7582d56fb8f024365e622013d6047ce3e",
+      "HodgeVerification.lean": "54f6aa1af3d98f714b48b98205f6b331cd43dd771a72e5589f1801c848f5e37c",
+      "ShiodaFormalConjectures.lean": "334e52a0f20c856d502de61e94b1a8eca1b2378c155420dddde59cfb2c7bddd5",
+      "MathlibPR_ShiodaAokiFermat.lean": "00e049bcfdd8fb84d814cd9e76357b3466ffb55aa304061fff33ed06aa9e3882",
+      "MathlibPR_MacaulayGorenstein.lean": "55974fee713e961131978a6e39726cb29297b97f99b529a652fa097d754d8acc",
+      "MathlibPR_Spin8Triality.lean": "c3e3f604b41ca136e3b6257fc2aa9a31b01c057d5f4fa17c0da30a43abd25102",
+      "MathlibPR_CyclotomicIncidenceSieve.lean": "ee0819fc6002ef5f03d4bd6a1a02cdf0a02dfe2ac437e87aab9d142988e0cb3f",
+      "WiebeSchejaStorch.lean": "8ee0da01b797f04f2fbbaa08de863edfbc5cd59f1fd7944072d7ce93797f0a5b",
+      "GaussManinJetTransport.lean": "23aee87dacbc9b65af36658aa63c9bc864ec67cf9370da778f62a34357406637",
+      "ShiodaInductiveCycleSynthesis.lean": "d6ec4d41e4a822c16e69c41b49500c82be02de5f3729baaf8b2e79c5fc44e28e",
+      "Spin8LieAlgebraTriality.lean": "4a118e126e92bb1aac5070b80e74e51341c7a248b9e52fbb7059537fb7e72c3f",
+      "GlobalIVHSObstructionSpectrum.lean": "bd183d99161b1862c46d4fa9f3abaeb51897820ed37836f27031ebc00d668177",
+      "HigherDegreeSporadicBand4.lean": "52f273aff322ecf8352c92539058445cc8c97381b0b7cb36817fefce8f578871"
+    },
+    "passed": true
+  },
+  "upstream_staging_audit": {
+    "staged_files": [
+      "dist/upstream_prs/mathlib4/Mathlib/AlgebraicGeometry/FermatHypersurface/ShiodaAoki.lean",
+      "dist/upstream_prs/mathlib4/Mathlib/RingTheory/ArtinianGorenstein/MacaulayContraction.lean",
+      "dist/upstream_prs/mathlib4/Mathlib/RepresentationTheory/Spin8Triality.lean",
+      "dist/upstream_prs/mathlib4/Mathlib/Combinatorics/IncidenceSieve/CyclotomicResidualForm.lean",
+      "dist/upstream_prs/PR_DESCRIPTIONS_AND_PUSH_COMMANDS.md"
+    ],
+    "standalone_checks": {
+      "dist/upstream_prs/mathlib4/Mathlib/AlgebraicGeometry/FermatHypersurface/ShiodaAoki.lean": {
+        "returncode": 0,
+        "zero_local_imports": true,
+        "long_lines_gt_100": [],
+        "print_hits": 0,
+        "sha256": "f30bcd5f567c6a2becfe5bd60ded3c0d168972351ffb48ba8797e3ad1114faa2",
+        "passed": true
+      },
+      "dist/upstream_prs/mathlib4/Mathlib/RingTheory/ArtinianGorenstein/MacaulayContraction.lean": {
+        "returncode": 0,
+        "zero_local_imports": true,
+        "long_lines_gt_100": [],
+        "print_hits": 0,
+        "sha256": "2854bd309d95191d88401cd756cd7a252a71d90b404b123e340ca161fc200acf",
+        "passed": true
+      },
+      "dist/upstream_prs/mathlib4/Mathlib/RepresentationTheory/Spin8Triality.lean": {
+        "returncode": 0,
+        "zero_local_imports": true,
+        "long_lines_gt_100": [],
+        "print_hits": 0,
+        "sha256": "f0fd7b851a1ef6122fd72b2ffb8cdbd54e233344ca6b99d428ad23a9c3405105",
+        "passed": true
+      },
+      "dist/upstream_prs/mathlib4/Mathlib/Combinatorics/IncidenceSieve/CyclotomicResidualForm.lean": {
+        "returncode": 0,
+        "zero_local_imports": true,
+        "long_lines_gt_100": [],
+        "print_hits": 0,
+        "sha256": "fc798cfcd59a139f512e10e717e98cbd53f93fd12470fc7e4f90c633a6d57212",
+        "passed": true
+      }
+    },
+    "passed": true
+  },
+  "paper_audit": {
+    "papers": {
+      "Paper1": {
+        "pdf_exists": true,
+        "pages": 13,
+        "latex_errors": 0,
+        "overfull": 0,
+        "underfull": 0,
+        "prose_pronouns": 0,
+        "forbidden_jargon": 0,
+        "tikz_figures": 2,
+        "tex_sha256": "82b70e5eb157485fe14530711a0d4a4ee1f5f669abd4b9df50d48536a043dbe2",
+        "pdf_sha256": "d0b44ba3ae119f1950d6fdd7eba6479dc5a5444d9ab29b4796c77a4f969dad58",
+        "passed": true
+      },
+      "Paper2": {
+        "pdf_exists": true,
+        "pages": 10,
+        "latex_errors": 0,
+        "overfull": 0,
+        "underfull": 0,
+        "prose_pronouns": 0,
+        "forbidden_jargon": 0,
+        "tikz_figures": 2,
+        "tex_sha256": "dc00070d56c4c0e903249f8ee8398626baec6a7c8c03e64f5775e69861e6d99f",
+        "pdf_sha256": "ea0590143807aac2ed0158abc4a7e4282ecb50fd3bdb7e101d61de7d34d1fc34",
+        "passed": true
+      },
+      "Paper3": {
+        "pdf_exists": true,
+        "pages": 10,
+        "latex_errors": 0,
+        "overfull": 0,
+        "underfull": 0,
+        "prose_pronouns": 0,
+        "forbidden_jargon": 0,
+        "tikz_figures": 2,
+        "tex_sha256": "6958fab953dd8efb4115a052cd83c2aaddd20542fce093cc0cba65a5a3aeba5c",
+        "pdf_sha256": "904017f9f1a106cbf22a73fb8ceb654319ceb01ede4e3c5b5bf9e8d4a4530dcc",
+        "passed": true
+      },
+      "Paper4": {
+        "pdf_exists": true,
+        "pages": 13,
+        "latex_errors": 0,
+        "overfull": 0,
+        "underfull": 0,
+        "prose_pronouns": 0,
+        "forbidden_jargon": 0,
+        "tikz_figures": 2,
+        "tex_sha256": "ddf5ba9fbd1bbe96cede07a43bb5abb1fce4358b8bfa745c03b533e44673f30b",
+        "pdf_sha256": "8cd6ae0ede4fbc033baf8360a6e94f026cdd256b5e0b48f9ac89c38aa50dbf16",
+        "passed": true
+      },
+      "Paper5": {
+        "pdf_exists": true,
+        "pages": 9,
+        "latex_errors": 0,
+        "overfull": 0,
+        "underfull": 0,
+        "prose_pronouns": 0,
+        "forbidden_jargon": 0,
+        "tikz_figures": 2,
+        "tex_sha256": "c80ae06bf3755f405dc22bd731a0c76644790d23e63f9f4aa74d2b22541bfaf4",
+        "pdf_sha256": "8691d265850271a8da53f791c2c9b958f7b8fd20480252d0c36dfb47a8b23048",
+        "passed": true
+      },
+      "Paper6": {
+        "pdf_exists": true,
+        "pages": 11,
+        "latex_errors": 0,
+        "overfull": 0,
+        "underfull": 0,
+        "prose_pronouns": 0,
+        "forbidden_jargon": 0,
+        "tikz_figures": 2,
+        "tex_sha256": "5b246773c43c8e0f92f357246107fe555df36e718fc26d00058a09ad0ba62efd",
+        "pdf_sha256": "ea0514763d46ee4155d7c07da9120b6c1c5eb053bc6eef0da9a8a7c146fd5aa7",
+        "passed": true
+      }
+    },
+    "passed": true
+  },
+  "release_bundle": {
+    "bundle_path": "dist/HODGE_LEAN4_5PAPER_RELEASE_BUNDLE.zip",
+    "file_count": 44,
+    "size_bytes": 3519821,
+    "sha256": "f98b06050a4a0ffca4aacd56c26eff09491a6d94dc7701311612e1dbafa52d52"
+  }
+}

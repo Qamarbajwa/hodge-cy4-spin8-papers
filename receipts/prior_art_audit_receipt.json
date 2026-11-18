@@ -1,0 +1,745 @@
+{
+  "audit_timestamp": "2026-11-16T09:23:21.055177+00:00",
+  "repositories_scanned": [
+    "leanprover-community/mathlib4",
+    "google-deepmind/formal-conjectures",
+    "ImperialCollegeLondon/FLT"
+  ],
+  "targets": {
+    "hodge_conjecture_and_cycle_class": {
+      "name": "Target 1: Hodge Conjecture & Cycle Class Map",
+      "scope": "Deligne formulation of Hodge Conjecture, cycle class map CH^p(X) -> Hdg^{2p}(X)",
+      "terms": [
+        "HodgeConjecture",
+        "hodge_conjecture",
+        "cycleClass"
+      ],
+      "results_by_repo": {
+        "leanprover-community/mathlib4": {
+          "code_hits": {
+            "HodgeConjecture": {
+              "count": 0,
+              "paths": []
+            },
+            "hodge_conjecture": {
+              "count": 0,
+              "paths": []
+            },
+            "cycleClass": {
+              "count": 0,
+              "paths": []
+            }
+          },
+          "pr_hits": {
+            "HodgeConjecture": {
+              "count": 1,
+              "prs": [
+                {
+                  "number": 43700,
+                  "state": "CLOSED",
+                  "title": "[Merged by Bors] - chore(RingTheory/NoetherNormalization): make the change of variables public",
+                  "url": "https://github.com/leanprover-community/mathlib4/pull/43700"
+                }
+              ]
+            },
+            "hodge_conjecture": {
+              "count": 0,
+              "prs": []
+            },
+            "cycleClass": {
+              "count": 0,
+              "prs": []
+            }
+          },
+          "total_code_hits_in_repo": 0,
+          "total_pr_hits_in_repo": 1
+        },
+        "google-deepmind/formal-conjectures": {
+          "code_hits": {
+            "HodgeConjecture": {
+              "count": 0,
+              "paths": []
+            },
+            "hodge_conjecture": {
+              "count": 0,
+              "paths": []
+            },
+            "cycleClass": {
+              "count": 0,
+              "paths": []
+            }
+          },
+          "pr_hits": {
+            "HodgeConjecture": {
+              "count": 1,
+              "prs": [
+                {
+                  "number": 5585,
+                  "state": "OPEN",
+                  "title": "feat(Hodge): re-port HodgeConjecture at 18ff3a1",
+                  "url": "https://github.com/google-deepmind/formal-conjectures/pull/5585"
+                }
+              ]
+            },
+            "hodge_conjecture": {
+              "count": 0,
+              "prs": []
+            },
+            "cycleClass": {
+              "count": 0,
+              "prs": []
+            }
+          },
+          "total_code_hits_in_repo": 0,
+          "total_pr_hits_in_repo": 1
+        },
+        "ImperialCollegeLondon/FLT": {
+          "code_hits": {
+            "HodgeConjecture": {
+              "count": 0,
+              "paths": []
+            },
+            "hodge_conjecture": {
+              "count": 0,
+              "paths": []
+            },
+            "cycleClass": {
+              "count": 0,
+              "paths": []
+            }
+          },
+          "pr_hits": {
+            "HodgeConjecture": {
+              "count": 0,
+              "prs": []
+            },
+            "hodge_conjecture": {
+              "count": 0,
+              "prs": []
+            },
+            "cycleClass": {
+              "count": 0,
+              "prs": []
+            }
+          },
+          "total_code_hits_in_repo": 0,
+          "total_pr_hits_in_repo": 0
+        }
+      },
+      "total_code_hits": 0,
+      "total_pr_hits": 2
+    },
+    "gorenstein_and_macaulay_apolarity": {
+      "name": "Target 2: Artinian Gorenstein Rings & Macaulay Inverse Systems",
+      "scope": "Artinian Gorenstein rings, socle duality, Macaulay inverse systems, apolarity pairing",
+      "terms": [
+        "IsGorenstein",
+        "Macaulay",
+        "inverseSystem",
+        "apolarity"
+      ],
+      "results_by_repo": {
+        "leanprover-community/mathlib4": {
+          "code_hits": {
+            "IsGorenstein": {
+              "count": 0,
+              "paths": []
+            },
+            "Macaulay": {
+              "count": 0,
+              "paths": []
+            },
+            "inverseSystem": {
+              "count": 5,
+              "paths": [
+                "Mathlib/Order/DirectedInverseSystem.lean",
+                "Mathlib/FieldTheory/CardinalEmb.lean",
+                "Mathlib/SetTheory/Cardinal/DirectLimit.lean",
+                "Mathlib/ModelTheory/DirectLimit.lean",
+                "Mathlib/Algebra/Colimit/DirectLimit.lean"
+              ]
+            },
+            "apolarity": {
+              "count": 0,
+              "paths": []
+            }
+          },
+          "pr_hits": {
+            "IsGorenstein": {
+              "count": 0,
+              "prs": []
+            },
+            "Macaulay": {
+              "count": 5,
+              "prs": [
+                {
+                  "number": 29533,
+                  "state": "OPEN",
+                  "title": "feat(Algebra): maximal Cohen Macaulay module",
+                  "url": "https://github.com/leanprover-community/mathlib4/pull/29533"
+                },
+                {
+                  "number": 26218,
+                  "state": "OPEN",
+                  "title": "feat(Algebra): definition of cohen macaulay",
+                  "url": "https://github.com/leanprover-community/mathlib4/pull/26218"
+                },
+                {
+                  "number": 26957,
+                  "state": "OPEN",
+                  "title": "feat(Algebra): unmixed thm of Cohen-Macaulay ring",
+                  "url": "https://github.com/leanprover-community/mathlib4/pull/26957"
+                },
+                {
+                  "number": 26245,
+                  "state": "OPEN",
+                  "title": "feat(Algebra): cohen macaulay local ring is catenary",
+                  "url": "https://github.com/leanprover-community/mathlib4/pull/26245"
+                },
+                {
+                  "number": 33379,
+                  "state": "OPEN",
+                  "title": "feat(RingTheory): Gorenstein local ring is Cohen Macaulay",
+                  "url": "https://github.com/leanprover-community/mathlib4/pull/33379"
+                }
+              ]
+            },
+            "inverseSystem": {
+              "count": 0,
+              "prs": []
+            },
+            "apolarity": {
+              "count": 0,
+              "prs": []
+            }
+          },
+          "total_code_hits_in_repo": 5,
+          "total_pr_hits_in_repo": 5
+        },
+        "google-deepmind/formal-conjectures": {
+          "code_hits": {
+            "IsGorenstein": {
+              "count": 0,
+              "paths": []
+            },
+            "Macaulay": {
+              "count": 6,
+              "paths": [
+                "FormalConjectures/Wikipedia/SmallCohenMacaulayModules.lean",
+                "FormalConjecturesForMathlib/RingTheory/CohenMacaulayModule.lean",
+                "FormalConjectures/Paper/EisenbudGreenHarris.lean",
+                "FormalConjectures/Paper/AuslanderReiten.lean",
+                "FormalConjectures/Subsets/FC100SolvedSet2.lean",
+                "FormalConjecturesForMathlib.lean"
+              ]
+            },
+            "inverseSystem": {
+              "count": 0,
+              "paths": []
+            },
+            "apolarity": {
+              "count": 0,
+              "paths": []
+            }
+          },
+          "pr_hits": {
+            "IsGorenstein": {
+              "count": 0,
+              "prs": []
+            },
+            "Macaulay": {
+              "count": 2,
+              "prs": [
+                {
+                  "number": 7214,
+                  "state": "OPEN",
+                  "title": "Add reference note: claimed counterexample of exists_isSmallCohenMacaulay (unrefereed; status unchanged)",
+                  "url": "https://github.com/google-deepmind/formal-conjectures/pull/7214"
+                },
+                {
+                  "number": 5401,
+                  "state": "MERGED",
+                  "title": "feat(Wikipedia): add the small Cohen-Macaulay modules conjecture",
+                  "url": "https://github.com/google-deepmind/formal-conjectures/pull/5401"
+                }
+              ]
+            },
+            "inverseSystem": {
+              "count": 0,
+              "prs": []
+            },
+            "apolarity": {
+              "count": 0,
+              "prs": []
+            }
+          },
+          "total_code_hits_in_repo": 6,
+          "total_pr_hits_in_repo": 2
+        },
+        "ImperialCollegeLondon/FLT": {
+          "code_hits": {
+            "IsGorenstein": {
+              "count": 0,
+              "paths": []
+            },
+            "Macaulay": {
+              "count": 0,
+              "paths": []
+            },
+            "inverseSystem": {
+              "count": 2,
+              "paths": [
+                "FLT/Deformations/Algebra/InverseLimit/Basic.lean",
+                "FLT/Deformations/Algebra/InverseLimit/Topology.lean"
+              ]
+            },
+            "apolarity": {
+              "count": 0,
+              "paths": []
+            }
+          },
+          "pr_hits": {
+            "IsGorenstein": {
+              "count": 0,
+              "prs": []
+            },
+            "Macaulay": {
+              "count": 0,
+              "prs": []
+            },
+            "inverseSystem": {
+              "count": 0,
+              "prs": []
+            },
+            "apolarity": {
+              "count": 0,
+              "prs": []
+            }
+          },
+          "total_code_hits_in_repo": 2,
+          "total_pr_hits_in_repo": 0
+        }
+      },
+      "total_code_hits": 13,
+      "total_pr_hits": 7
+    },
+    "gotzmann_persistence_and_hilbert": {
+      "name": "Target 3: Gotzmann's Regularity & Persistence Theorem",
+      "scope": "Gotzmann regularity, persistence theorem on growth of Hilbert functions",
+      "terms": [
+        "Gotzmann",
+        "hilbertPolynomial"
+      ],
+      "results_by_repo": {
+        "leanprover-community/mathlib4": {
+          "code_hits": {
+            "Gotzmann": {
+              "count": 0,
+              "paths": []
+            },
+            "hilbertPolynomial": {
+              "count": 0,
+              "paths": []
+            }
+          },
+          "pr_hits": {
+            "Gotzmann": {
+              "count": 0,
+              "prs": []
+            },
+            "hilbertPolynomial": {
+              "count": 1,
+              "prs": [
+                {
+                  "number": 9819,
+                  "state": "CLOSED",
+                  "title": "fg graded ring",
+                  "url": "https://github.com/leanprover-community/mathlib4/pull/9819"
+                }
+              ]
+            }
+          },
+          "total_code_hits_in_repo": 0,
+          "total_pr_hits_in_repo": 1
+        },
+        "google-deepmind/formal-conjectures": {
+          "code_hits": {
+            "Gotzmann": {
+              "count": 0,
+              "paths": []
+            },
+            "hilbertPolynomial": {
+              "count": 0,
+              "paths": []
+            }
+          },
+          "pr_hits": {
+            "Gotzmann": {
+              "count": 0,
+              "prs": []
+            },
+            "hilbertPolynomial": {
+              "count": 0,
+              "prs": []
+            }
+          },
+          "total_code_hits_in_repo": 0,
+          "total_pr_hits_in_repo": 0
+        },
+        "ImperialCollegeLondon/FLT": {
+          "code_hits": {
+            "Gotzmann": {
+              "count": 0,
+              "paths": []
+            },
+            "hilbertPolynomial": {
+              "count": 1,
+              "paths": [
+                "FLT/Slop/DimensionTheorem/README.md"
+              ]
+            }
+          },
+          "pr_hits": {
+            "Gotzmann": {
+              "count": 0,
+              "prs": []
+            },
+            "hilbertPolynomial": {
+              "count": 0,
+              "prs": []
+            }
+          },
+          "total_code_hits_in_repo": 1,
+          "total_pr_hits_in_repo": 0
+        }
+      },
+      "total_code_hits": 1,
+      "total_pr_hits": 1
+    },
+    "shioda_aoki_fermat_characters": {
+      "name": "Target 4: Shioda-Aoki Fermat Hypersurface Characters",
+      "scope": "Shioda-Aoki-Ran decomposition of Fermat hypersurface primitive Hodge cohomology under diagonal characters",
+      "terms": [
+        "Shioda",
+        "fermatHypersurface",
+        "hodgeCharacter"
+      ],
+      "results_by_repo": {
+        "leanprover-community/mathlib4": {
+          "code_hits": {
+            "Shioda": {
+              "count": 0,
+              "paths": []
+            },
+            "fermatHypersurface": {
+              "count": 0,
+              "paths": []
+            },
+            "hodgeCharacter": {
+              "count": 0,
+              "paths": []
+            }
+          },
+          "pr_hits": {
+            "Shioda": {
+              "count": 0,
+              "prs": []
+            },
+            "fermatHypersurface": {
+              "count": 0,
+              "prs": []
+            },
+            "hodgeCharacter": {
+              "count": 0,
+              "prs": []
+            }
+          },
+          "total_code_hits_in_repo": 0,
+          "total_pr_hits_in_repo": 0
+        },
+        "google-deepmind/formal-conjectures": {
+          "code_hits": {
+            "Shioda": {
+              "count": 0,
+              "paths": []
+            },
+            "fermatHypersurface": {
+              "count": 0,
+              "paths": []
+            },
+            "hodgeCharacter": {
+              "count": 0,
+              "paths": []
+            }
+          },
+          "pr_hits": {
+            "Shioda": {
+              "count": 0,
+              "prs": []
+            },
+            "fermatHypersurface": {
+              "count": 0,
+              "prs": []
+            },
+            "hodgeCharacter": {
+              "count": 0,
+              "prs": []
+            }
+          },
+          "total_code_hits_in_repo": 0,
+          "total_pr_hits_in_repo": 0
+        },
+        "ImperialCollegeLondon/FLT": {
+          "code_hits": {
+            "Shioda": {
+              "count": 0,
+              "paths": []
+            },
+            "fermatHypersurface": {
+              "count": 0,
+              "paths": []
+            },
+            "hodgeCharacter": {
+              "count": 0,
+              "paths": []
+            }
+          },
+          "pr_hits": {
+            "Shioda": {
+              "count": 0,
+              "prs": []
+            },
+            "fermatHypersurface": {
+              "count": 0,
+              "prs": []
+            },
+            "hodgeCharacter": {
+              "count": 0,
+              "prs": []
+            }
+          },
+          "total_code_hits_in_repo": 0,
+          "total_pr_hits_in_repo": 0
+        }
+      },
+      "total_code_hits": 0,
+      "total_pr_hits": 0
+    },
+    "spin8_triality_and_weyl_d4": {
+      "name": "Target 5: Spin(8) / D_4 Triality & Weyl Group W(D_4)",
+      "scope": "Spin(8) triality outer automorphism, Clifford algebra C+(V_8), Weyl group W(D_4) character table",
+      "terms": [
+        "triality",
+        "weylGroupD4",
+        "evenClifford"
+      ],
+      "results_by_repo": {
+        "leanprover-community/mathlib4": {
+          "code_hits": {
+            "triality": {
+              "count": 0,
+              "paths": []
+            },
+            "weylGroupD4": {
+              "count": 0,
+              "paths": []
+            },
+            "evenClifford": {
+              "count": 0,
+              "paths": []
+            }
+          },
+          "pr_hits": {
+            "triality": {
+              "count": 0,
+              "prs": []
+            },
+            "weylGroupD4": {
+              "count": 0,
+              "prs": []
+            },
+            "evenClifford": {
+              "count": 0,
+              "prs": []
+            }
+          },
+          "total_code_hits_in_repo": 0,
+          "total_pr_hits_in_repo": 0
+        },
+        "google-deepmind/formal-conjectures": {
+          "code_hits": {
+            "triality": {
+              "count": 0,
+              "paths": []
+            },
+            "weylGroupD4": {
+              "count": 0,
+              "paths": []
+            },
+            "evenClifford": {
+              "count": 0,
+              "paths": []
+            }
+          },
+          "pr_hits": {
+            "triality": {
+              "count": 0,
+              "prs": []
+            },
+            "weylGroupD4": {
+              "count": 0,
+              "prs": []
+            },
+            "evenClifford": {
+              "count": 0,
+              "prs": []
+            }
+          },
+          "total_code_hits_in_repo": 0,
+          "total_pr_hits_in_repo": 0
+        },
+        "ImperialCollegeLondon/FLT": {
+          "code_hits": {
+            "triality": {
+              "count": 0,
+              "paths": []
+            },
+            "weylGroupD4": {
+              "count": 0,
+              "paths": []
+            },
+            "evenClifford": {
+              "count": 0,
+              "paths": []
+            }
+          },
+          "pr_hits": {
+            "triality": {
+              "count": 0,
+              "prs": []
+            },
+            "weylGroupD4": {
+              "count": 0,
+              "prs": []
+            },
+            "evenClifford": {
+              "count": 0,
+              "prs": []
+            }
+          },
+          "total_code_hits_in_repo": 0,
+          "total_pr_hits_in_repo": 0
+        }
+      },
+      "total_code_hits": 0,
+      "total_pr_hits": 0
+    },
+    "wang_rational_reconstruction_and_crt": {
+      "name": "Target 6: Wang's Modular Rational Reconstruction & Multi-Prime CRT",
+      "scope": "Wang (1981) Euclidean modular rational reconstruction and multi-prime Chinese Remainder Theorem",
+      "terms": [
+        "rationalReconstruction",
+        "chineseRemainder"
+      ],
+      "results_by_repo": {
+        "leanprover-community/mathlib4": {
+          "code_hits": {
+            "rationalReconstruction": {
+              "count": 0,
+              "paths": []
+            },
+            "chineseRemainder": {
+              "count": 14,
+              "paths": [
+                "Mathlib/Data/Nat/ChineseRemainder.lean",
+                "Mathlib/Data/ZMod/QuotientRing.lean",
+                "Mathlib/Data/Nat/ModEq.lean",
+                "Mathlib/Logic/Godel/GodelBetaFunction.lean",
+                "Mathlib/Data/ZMod/Basic.lean",
+                "Mathlib/RingTheory/ZMod/UnitsCyclic.lean",
+                "Mathlib/Data/Nat/Totient.lean",
+                "Mathlib/NumberTheory/SumTwoSquares.lean",
+                "Mathlib/RingTheory/LocalRing/Module.lean",
+                "Mathlib/NumberTheory/PellMatiyasevic.lean"
+              ]
+            }
+          },
+          "pr_hits": {
+            "rationalReconstruction": {
+              "count": 0,
+              "prs": []
+            },
+            "chineseRemainder": {
+              "count": 0,
+              "prs": []
+            }
+          },
+          "total_code_hits_in_repo": 14,
+          "total_pr_hits_in_repo": 0
+        },
+        "google-deepmind/formal-conjectures": {
+          "code_hits": {
+            "rationalReconstruction": {
+              "count": 0,
+              "paths": []
+            },
+            "chineseRemainder": {
+              "count": 2,
+              "paths": [
+                "FormalConjectures/Wikipedia/AgohGiuga.lean",
+                "FormalConjectures/ErdosProblems/687.lean"
+              ]
+            }
+          },
+          "pr_hits": {
+            "rationalReconstruction": {
+              "count": 0,
+              "prs": []
+            },
+            "chineseRemainder": {
+              "count": 0,
+              "prs": []
+            }
+          },
+          "total_code_hits_in_repo": 2,
+          "total_pr_hits_in_repo": 0
+        },
+        "ImperialCollegeLondon/FLT": {
+          "code_hits": {
+            "rationalReconstruction": {
+              "count": 0,
+              "paths": []
+            },
+            "chineseRemainder": {
+              "count": 0,
+              "paths": []
+            }
+          },
+          "pr_hits": {
+            "rationalReconstruction": {
+              "count": 0,
+              "prs": []
+            },
+            "chineseRemainder": {
+              "count": 0,
+              "prs": []
+            }
+          },
+          "total_code_hits_in_repo": 0,
+          "total_pr_hits_in_repo": 0
+        }
+      },
+      "total_code_hits": 16,
+      "total_pr_hits": 0
+    }
+  },
+  "summary": {},
+  "formalization_status_verdict": {
+    "hodge_conjecture_and_cycle_class": "UNFORMALIZED_IN_LEAN4 (Zero algebraic cycle or Hodge conjecture definitions in Mathlib4, DeepMind Formal-Conjectures, or FLT)",
+    "gorenstein_and_macaulay_apolarity": "PARTIALLY_FORMALIZED (Depth and Cohen-Macaulay rings exist in Mathlib; Artinian Gorenstein rings, Macaulay inverse systems, and apolarity pairings remain unformalized)",
+    "gotzmann_persistence_and_hilbert": "UNFORMALIZED_IN_LEAN4 (Gotzmann regularity and persistence theorems on Hilbert polynomials are absent from all three repositories)",
+    "shioda_aoki_fermat_characters": "UNFORMALIZED_IN_LEAN4 (Fermat hypersurface character decomposition and Shioda-Aoki primitive cohomology are completely unformalized in Lean 4)",
+    "spin8_triality_and_weyl_d4": "PARTIALLY_FORMALIZED (Clifford algebras exist in Mathlib4; Spin(8) triality outer automorphism and W(D_4) character table remain unformalized)",
+    "wang_rational_reconstruction_and_crt": "PARTIALLY_FORMALIZED (Chinese Remainder Theorem exists for Nat/ZMod/Ideals in Mathlib4; Wang 1981 Euclidean rational reconstruction is unformalized in Lean 4)"
+  }
+}

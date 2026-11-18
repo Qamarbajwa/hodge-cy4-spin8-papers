@@ -1,0 +1,19 @@
+{
+  "fork_merge_pr": {
+    "repo": "Qamarbajwa/mathlib4",
+    "branch": "feat/shioda-aoki-macaulay-spin8-sieve",
+    "url": "https://github.com/Qamarbajwa/mathlib4/pull/8",
+    "state": "MERGED",
+    "merge_commit": "01a630c90aa2ca1678857f0e8f30dc33a65df984",
+    "merged_at": "2026-11-18T11:17:37Z"
+  },
+  "external_pr_policy": {
+    "external_upstream_prs_enabled": false,
+    "allowed_github_targets": [
+      "Qamarbajwa/hodge-cy4-spin8-lean4",
+      "Qamarbajwa/hodge-cy4-spin8-papers",
+      "Qamarbajwa/mathlib4"
+    ],
+    "notes": "Fork-internal master merges only; external upstream PR creation permanently disabled."
+  }
+}

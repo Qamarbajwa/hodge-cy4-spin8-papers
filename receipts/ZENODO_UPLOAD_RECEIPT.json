@@ -1,0 +1,147 @@
+{
+  "gate_passed": true,
+  "api_base": "https://zenodo.org/api",
+  "token_source": "ZENODO_TOKEN",
+  "total_verified_theorems": 110,
+  "deposit_dir": "dist/zenodo_verified_deposit_v1.0",
+  "staged_manifest": [
+    {
+      "id": "Paper1",
+      "filename": "Paper1_Shioda_Aoki_Fermat_Lean4.pdf",
+      "size_bytes": 689891,
+      "sha256": "d0b44ba3ae119f1950d6fdd7eba6479dc5a5444d9ab29b4796c77a4f969dad58",
+      "md5": "3c04442c9b98fbbdde1b7ccb6cb088df"
+    },
+    {
+      "id": "Paper2",
+      "filename": "Paper2_Macaulay_Apolarity_CY4_Lean4.pdf",
+      "size_bytes": 629232,
+      "sha256": "ea0590143807aac2ed0158abc4a7e4282ecb50fd3bdb7e101d61de7d34d1fc34",
+      "md5": "8f88a028f899afe3da5710df72301949"
+    },
+    {
+      "id": "Paper3",
+      "filename": "Paper3_Spin8_Triality_Mumford_Lean4.pdf",
+      "size_bytes": 669945,
+      "sha256": "904017f9f1a106cbf22a73fb8ceb654319ceb01ede4e3c5b5bf9e8d4a4530dcc",
+      "md5": "12f30816923fdd944bd936b19a2b2524"
+    },
+    {
+      "id": "Paper4",
+      "filename": "Paper4_Gauss_Manin_Jet_Reconstruction.pdf",
+      "size_bytes": 703605,
+      "sha256": "8cd6ae0ede4fbc033baf8360a6e94f026cdd256b5e0b48f9ac89c38aa50dbf16",
+      "md5": "11ddf66c29060d1a4c31ee0a1d09e6ff"
+    },
+    {
+      "id": "Paper5",
+      "filename": "Paper5_Cyclotomic_Incidence_Sieve_Lean4.pdf",
+      "size_bytes": 616473,
+      "sha256": "8691d265850271a8da53f791c2c9b958f7b8fd20480252d0c36dfb47a8b23048",
+      "md5": "47149c4c3f44751f0d64d09b4ac327f8"
+    },
+    {
+      "id": "Paper6",
+      "filename": "Paper6_Millennium_Frontier_Extensions_Lean4.pdf",
+      "size_bytes": 519041,
+      "sha256": "ea0514763d46ee4155d7c07da9120b6c1c5eb053bc6eef0da9a8a7c146fd5aa7",
+      "md5": "e09c74e8f489ab5c8acbcc16ae926bc4"
+    },
+    {
+      "id": "ReleaseBundle",
+      "filename": "HODGE_LEAN4_5PAPER_RELEASE_BUNDLE.zip",
+      "size_bytes": 3519821,
+      "sha256": "f98b06050a4a0ffca4aacd56c26eff09491a6d94dc7701311612e1dbafa52d52",
+      "md5": "50471449d04d18c2ef4e70b6ac90a962"
+    },
+    {
+      "id": "VerificationReceipt",
+      "filename": "FULL_AUTOMATION_VERIFICATION_RECEIPT.json",
+      "size_bytes": 7186,
+      "sha256": "7a54745494761fa4965ada84fd5eeb0e408501705a714532d95a2ae3eaf59adb",
+      "md5": "fd2348b9d591c687f3fcd72c44c114bb"
+    },
+    {
+      "id": "MillenniumExtReceipt",
+      "filename": "MILLENNIUM_EXT_RECEIPT.json",
+      "size_bytes": 4469,
+      "sha256": "29e3c5926d4eafe03b3d14f8606e27d4a27e01cc2c9d061163e087ab39805a0c",
+      "md5": "6893f22c157bf842f7f2fb510e322b81"
+    }
+  ],
+  "status": "PUBLISHED",
+  "state": "done",
+  "deposition_id": 24354741,
+  "parent_deposition_id": 24354741,
+  "concept_doi": "10.5281/zenodo.24329779",
+  "doi": "10.5281/zenodo.24354741",
+  "html_url": "https://zenodo.org/deposit/24354741",
+  "record_url": "https://zenodo.org/records/24354741",
+  "latest_url": "https://zenodo.org/records/24354741/latest",
+  "prereserved_doi": "10.5281/zenodo.24354741",
+  "uploaded_files": [
+    {
+      "filename": "Paper1_Shioda_Aoki_Fermat_Lean4.pdf",
+      "size_bytes": 689891,
+      "local_sha256": "d0b44ba3ae119f1950d6fdd7eba6479dc5a5444d9ab29b4796c77a4f969dad58",
+      "local_md5": "3c04442c9b98fbbdde1b7ccb6cb088df",
+      "remote_checksum": "md5:3c04442c9b98fbbdde1b7ccb6cb088df"
+    },
+    {
+      "filename": "Paper2_Macaulay_Apolarity_CY4_Lean4.pdf",
+      "size_bytes": 629232,
+      "local_sha256": "ea0590143807aac2ed0158abc4a7e4282ecb50fd3bdb7e101d61de7d34d1fc34",
+      "local_md5": "8f88a028f899afe3da5710df72301949",
+      "remote_checksum": "md5:8f88a028f899afe3da5710df72301949"
+    },
+    {
+      "filename": "Paper3_Spin8_Triality_Mumford_Lean4.pdf",
+      "size_bytes": 669945,
+      "local_sha256": "904017f9f1a106cbf22a73fb8ceb654319ceb01ede4e3c5b5bf9e8d4a4530dcc",
+      "local_md5": "12f30816923fdd944bd936b19a2b2524",
+      "remote_checksum": "md5:12f30816923fdd944bd936b19a2b2524"
+    },
+    {
+      "filename": "Paper4_Gauss_Manin_Jet_Reconstruction.pdf",
+      "size_bytes": 703605,
+      "local_sha256": "8cd6ae0ede4fbc033baf8360a6e94f026cdd256b5e0b48f9ac89c38aa50dbf16",
+      "local_md5": "11ddf66c29060d1a4c31ee0a1d09e6ff",
+      "remote_checksum": "md5:11ddf66c29060d1a4c31ee0a1d09e6ff"
+    },
+    {
+      "filename": "Paper5_Cyclotomic_Incidence_Sieve_Lean4.pdf",
+      "size_bytes": 616473,
+      "local_sha256": "8691d265850271a8da53f791c2c9b958f7b8fd20480252d0c36dfb47a8b23048",
+      "local_md5": "47149c4c3f44751f0d64d09b4ac327f8",
+      "remote_checksum": "md5:47149c4c3f44751f0d64d09b4ac327f8"
+    },
+    {
+      "filename": "Paper6_Millennium_Frontier_Extensions_Lean4.pdf",
+      "size_bytes": 519041,
+      "local_sha256": "ea0514763d46ee4155d7c07da9120b6c1c5eb053bc6eef0da9a8a7c146fd5aa7",
+      "local_md5": "e09c74e8f489ab5c8acbcc16ae926bc4",
+      "remote_checksum": "md5:e09c74e8f489ab5c8acbcc16ae926bc4"
+    },
+    {
+      "filename": "HODGE_LEAN4_5PAPER_RELEASE_BUNDLE.zip",
+      "size_bytes": 3519821,
+      "local_sha256": "f98b06050a4a0ffca4aacd56c26eff09491a6d94dc7701311612e1dbafa52d52",
+      "local_md5": "50471449d04d18c2ef4e70b6ac90a962",
+      "remote_checksum": "md5:50471449d04d18c2ef4e70b6ac90a962"
+    },
+    {
+      "filename": "FULL_AUTOMATION_VERIFICATION_RECEIPT.json",
+      "size_bytes": 7186,
+      "local_sha256": "7a54745494761fa4965ada84fd5eeb0e408501705a714532d95a2ae3eaf59adb",
+      "local_md5": "fd2348b9d591c687f3fcd72c44c114bb",
+      "remote_checksum": "md5:fd2348b9d591c687f3fcd72c44c114bb"
+    },
+    {
+      "filename": "MILLENNIUM_EXT_RECEIPT.json",
+      "size_bytes": 4469,
+      "local_sha256": "29e3c5926d4eafe03b3d14f8606e27d4a27e01cc2c9d061163e087ab39805a0c",
+      "local_md5": "6893f22c157bf842f7f2fb510e322b81",
+      "remote_checksum": "md5:6893f22c157bf842f7f2fb510e322b81"
+    }
+  ]
+}

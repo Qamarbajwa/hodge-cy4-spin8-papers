@@ -1,0 +1,317 @@
+{
+  "complete_intersection_profiles": [
+    {
+      "multidegree": [
+        3,
+        3
+      ],
+      "ambient": "P^6",
+      "calabi_yau_canonical": false,
+      "hodge_prim_diamond": [
+        0,
+        49,
+        266,
+        49,
+        0
+      ],
+      "hodge_prim_palindromic": true,
+      "hodge_prim_total_dim": 364,
+      "cayley_bundle_total_degree": 4,
+      "weights_z0_to_z6_y1_y2": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "weighted_degrees_evaluated": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "weighted_jacobian_dims": [
+        1,
+        9,
+        45,
+        156,
+        415
+      ],
+      "max_deg_auxiliary_7var_hilbert": [
+        1,
+        7,
+        21,
+        35,
+        35,
+        21,
+        7,
+        1
+      ],
+      "max_deg_auxiliary_palindromic": true,
+      "cubic_7var_auxiliary_hilbert": [
+        1,
+        7,
+        28,
+        77,
+        161,
+        266,
+        357,
+        393,
+        357,
+        266,
+        161,
+        77,
+        28,
+        7,
+        1
+      ]
+    },
+    {
+      "multidegree": [
+        3,
+        4
+      ],
+      "ambient": "P^6",
+      "calabi_yau_canonical": true,
+      "hodge_prim_diamond": [
+        1,
+        237,
+        995,
+        237,
+        1
+      ],
+      "hodge_prim_palindromic": true,
+      "hodge_prim_total_dim": 1471,
+      "cayley_bundle_total_degree": 5,
+      "weights_z0_to_z6_y1_y2": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1
+      ],
+      "weighted_degrees_evaluated": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "weighted_jacobian_dims": [
+        1,
+        8,
+        37,
+        127,
+        351
+      ],
+      "max_deg_auxiliary_7var_hilbert": [
+        1,
+        7,
+        28,
+        77,
+        161,
+        266,
+        357,
+        393,
+        357,
+        266,
+        161,
+        77,
+        28,
+        7,
+        1
+      ],
+      "max_deg_auxiliary_palindromic": true,
+      "cubic_7var_auxiliary_hilbert": [
+        1,
+        7,
+        28,
+        77,
+        161,
+        266,
+        357,
+        393,
+        357,
+        266,
+        161,
+        77,
+        28,
+        7,
+        1
+      ]
+    },
+    {
+      "multidegree": [
+        2,
+        5
+      ],
+      "ambient": "P^6",
+      "calabi_yau_canonical": true,
+      "hodge_prim_diamond": [
+        1,
+        356,
+        1471,
+        356,
+        1
+      ],
+      "hodge_prim_palindromic": true,
+      "hodge_prim_total_dim": 2185,
+      "cayley_bundle_total_degree": 6,
+      "weights_z0_to_z6_y1_y2": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        4,
+        1
+      ],
+      "weighted_degrees_evaluated": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "weighted_jacobian_dims": [
+        1,
+        8,
+        35,
+        112,
+        295
+      ],
+      "max_deg_auxiliary_7var_hilbert": [
+        1,
+        7,
+        28,
+        84,
+        203,
+        413,
+        728,
+        1128,
+        1554,
+        1918,
+        2128,
+        2128,
+        1918,
+        1554,
+        1128,
+        728,
+        413,
+        203,
+        84,
+        28,
+        7,
+        1
+      ],
+      "max_deg_auxiliary_palindromic": true,
+      "cubic_7var_auxiliary_hilbert": [
+        1,
+        7,
+        28,
+        77,
+        161,
+        266,
+        357,
+        393,
+        357,
+        266,
+        161,
+        77,
+        28,
+        7,
+        1
+      ]
+    },
+    {
+      "multidegree": [
+        4,
+        4
+      ],
+      "ambient": "P^6",
+      "calabi_yau_canonical": false,
+      "hodge_prim_diamond": [
+        7,
+        707,
+        2583,
+        707,
+        7
+      ],
+      "hodge_prim_palindromic": true,
+      "hodge_prim_total_dim": 4011,
+      "cayley_bundle_total_degree": 5,
+      "weights_z0_to_z6_y1_y2": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "weighted_degrees_evaluated": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "weighted_jacobian_dims": [
+        1,
+        9,
+        45,
+        165,
+        486
+      ],
+      "max_deg_auxiliary_7var_hilbert": [
+        1,
+        7,
+        28,
+        77,
+        161,
+        266,
+        357,
+        393,
+        357,
+        266,
+        161,
+        77,
+        28,
+        7,
+        1
+      ],
+      "max_deg_auxiliary_palindromic": true,
+      "cubic_7var_auxiliary_hilbert": [
+        1,
+        7,
+        28,
+        77,
+        161,
+        266,
+        357,
+        393,
+        357,
+        266,
+        161,
+        77,
+        28,
+        7,
+        1
+      ]
+    }
+  ],
+  "torsion_obstruction_note": "Integral Hodge failures of Atiyah-Hirzebruch / Kollar type (e.g. Steenrod Sq^3 torsion) vanish after tensoring with Q, so any rational counterexample requires a non-torsion, non-algebraic invariant surviving Q-scaling."
+}

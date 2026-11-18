@@ -1,0 +1,70 @@
+{
+  "EXT_CHECKS_PASSED": true,
+  "baseline_lock": {
+    "locked_baseline_intact": true,
+    "mismatches": []
+  },
+  "extension_lean_audit": {
+    "lake_clean_ok": true,
+    "lake_build_ok": true,
+    "returncode": 0,
+    "extension_theorems": 26,
+    "theorem_counts": {
+      "MumfordWeilKernelVecs.lean": 2,
+      "HodgeBridgeInterfaces.lean": 0,
+      "ConditionalFermatHodge.lean": 12,
+      "FermatHighDegreeExt.lean": 5,
+      "HigherOrderJetLifting.lean": 4,
+      "CayleyCompleteInt.lean": 2,
+      "Poly6ToMvPoly.lean": 1
+    },
+    "forbidden_hits": [],
+    "long_lines_gt_100": [],
+    "unexpected_axiom_lines": [],
+    "verbatim_axiom_receipts": [
+      "info: CayleyCompleteInt.lean:86:0: 'cayley_ci34_gorenstein_palindromic_cert' does not depend on any axioms",
+      "info: CayleyCompleteInt.lean:87:0: 'cayley_ci33_and_ci34_gorenstein_symmetry_cert' does not depend on any axioms",
+      "info: Poly6ToMvPoly.lean:177:0: 'poly6_ring_homomorphism_and_wss_det_bridge_cert' does not depend on any axioms",
+      "info: MumfordWeilKernelVecs.lean:178:0: 'mumford_weil_2d_kernel_bases_cert' does not depend on any axioms",
+      "info: MumfordWeilKernelVecs.lean:179:0: 'mumford_weil_idempotent_projector_and_cm_correspondence_cert' does not depend on any axioms",
+      "info: HigherOrderJetLifting.lean:360:0: 'multi_order_t8_gauss_manin_jet_cert' does not depend on any axioms",
+      "info: HigherOrderJetLifting.lean:361:0: 'multi_order_t8_exact_z_rank_witness_cert' does not depend on any axioms",
+      "info: HigherOrderJetLifting.lean:362:0: 'codim3_unmixed_complete_intersection_profiles_cert' does not depend on any axioms",
+      "info: HigherOrderJetLifting.lean:363:0: 'g3_complete_intersection_wiebe_scheja_storch_z_cert' does not depend on any axioms",
+      "info: FermatHighDegreeExt.lean:155:0: 'shioda_prime_degree_band1_purity_ext_cert' does not depend on any axioms",
+      "info: FermatHighDegreeExt.lean:156:0: 'shioda_aoki_band4_decomposition_m20_to_m22_cert' does not depend on any axioms",
+      "info: FermatHighDegreeExt.lean:157:0: 'shioda_aoki_m25_sporadic_isolation_cert' does not depend on any axioms",
+      "info: FermatHighDegreeExt.lean:158:0: 'shioda_aoki_m25_cyclic_coset_cone_synthesis_cert' does not depend on any axioms",
+      "info: FermatHighDegreeExt.lean:159:0: 'shioda_aoki_m21_m24_band4_decomposition_cert' does not depend on any axioms",
+      "info: ConditionalFermatHodge.lean:292:0: 'valid_witness_implies_algebraic' does not depend on any axioms",
+      "info: ConditionalFermatHodge.lean:293:0: 'conditional_glued_surface_join_algebraic' does not depend on any axioms",
+      "info: ConditionalFermatHodge.lean:294:0: 'synthesizable_implies_algebraic' does not depend on any axioms",
+      "info: ConditionalFermatHodge.lean:295:0: 'conditional_fermat_hodge22_all_synthesized_algebraic' does not depend on any axioms",
+      "info: ConditionalFermatHodge.lean:296:0: 'conditional_fermat_hodge22_verified_m3_to_m22_cert' does not depend on any axioms"
+    ],
+    "sha256": {
+      "MumfordWeilKernelVecs.lean": "b14bbdd7bca680a661815c8e60d4a8897a2f3e675e3202dc8eef133107eaa150",
+      "HodgeBridgeInterfaces.lean": "6b2ac49d3c6d981b5580e291105823cc6ff6e8825e881bab92b4948149e95db8",
+      "ConditionalFermatHodge.lean": "00cddea860047f5b9a4d659118c85338fcba7c9f5f3aa687115c99c8a9ab2dfe",
+      "FermatHighDegreeExt.lean": "7dabe1e44897d91db0ba01bfc20512b6182378cd8f90a01a6641c92c809ac7f8",
+      "HigherOrderJetLifting.lean": "e37544ce8add71881352e8dbde9aa4b8ccdc358adc8dd1752d00ae56d1eb2f11",
+      "CayleyCompleteInt.lean": "0ecd0d03b0a53bbee19dc6dc823f5dba5729b1857edb7e73ee06de58024c4857",
+      "Poly6ToMvPoly.lean": "c71dcb3bc1016cdb1a3a1f048a87519d95db6c90659fe7788a7be82d194ad3e6"
+    },
+    "passed": true
+  },
+  "symbolic_explorers": {
+    "fermat_band4_scout.py": true,
+    "multi_order_gd_crt.py": true,
+    "nl_moduli_walk.py": true,
+    "counterexample_sieve.py": true,
+    "mumford_cm_specializer.py": true
+  },
+  "open_frontiers": [
+    "Wall1: Global 426-dim NL locus connectedness",
+    "Wall2: m=25 5-term-AP sporadic orbit cycle construction & m -> inf closure",
+    "Wall3: Generic simple (End=Q, rho=1) Mumford 2-cycle construction",
+    "Wall4: Universal smooth projective X subset P^N mechanism or counterexample",
+    "Wall5: Full Mathlib4 Kahler / exponential sheaf / Griffiths residue / Chow discharge"
+  ]
+}
